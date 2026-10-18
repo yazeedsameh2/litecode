@@ -26,7 +26,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Unzip project and locate package.json
+      - name: locate package.json
         shell: bash
         run: |
           python - <<'PY'
